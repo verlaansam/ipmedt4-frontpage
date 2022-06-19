@@ -30,7 +30,7 @@ class Section extends React.Component{
                         <input className="submit"type="submit" value="Join" />
                     </form>
                 </article>
-                <button>
+                <button onClick={}>
                     <h2>Create Room </h2>   
                     <figure>
                         <img src={add} alt=""></img>
