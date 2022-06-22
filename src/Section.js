@@ -15,6 +15,10 @@ class Section extends React.Component{
         document.getElementById("dropdownHT").style.display = "flex";
     }
 
+    createRoom = () => {
+        //do shit
+    }
+
     render(){
         return(
             <section>
@@ -30,7 +34,7 @@ class Section extends React.Component{
                         <input className="submit"type="submit" value="Join" />
                     </form>
                 </article>
-                <button onClick={}>
+                <button onClick={this.createRoom}>
                     <h2>Create Room </h2>   
                     <figure>
                         <img src={add} alt=""></img>
